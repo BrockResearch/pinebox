@@ -7,6 +7,8 @@ RUN apk add --no-cache \
 
 RUN apk update
 
+RUN apk add tree=1.7.0-r0
+
 RUN apk add vim=8.0.0329-r0
 
 RUN apk add jq=1.5-r3
