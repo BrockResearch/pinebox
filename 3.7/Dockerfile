@@ -11,6 +11,8 @@ RUN apk add tree=1.7.0-r1
 
 RUN apk add jq=1.5-r4
 
+RUN apk add su-exec=0.2-r0
+
 ENV PS1="\h:\w\> "
 
 CMD ["/bin/sh"]
